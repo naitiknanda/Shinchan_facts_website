@@ -23,10 +23,7 @@
     color:red;
     font-weight:bold;
 }
-.section-box p span{
-    color:red;
-    font-weight:bold;
-}
+
 
 /* nth child example */
 ul li:nth-child(2){
@@ -45,11 +42,11 @@ ul li:nth-child(4){
     color:deeppink;
     font-weight:bold;
 }
----------- PSEUDO CLASSES ----------
 
-.button{
+
+a {
     display:inline-block;
-    background:#ff5c5c;
+    background:orange;
     padding:10px 20px;
     color:white;
     border-radius:8px;
@@ -71,7 +68,7 @@ input:focus{
     border:3px solid green;
 }
 
----------- PSEUDO ELEMENTS ----------
+
 
 h1::before{
     content:"⭐ ";
@@ -116,11 +113,12 @@ He is naughty, funny and always in trouble, but he has a golden heart.
 
 </ul>
 </div>
-</div>
+
 
 <div class="section-box">
 <h2>Shinchan Games</h2>
-<a class="button">Click Me</a>
+<a class="button" href="#">Click Me</a>
+
 <br><br>
 <input type="text" placeholder="Type something about Shinchan...">
 </div>
