@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Shinchan Box Model Webpage</title>
+    <style>
+        body{
+    font-family: Comic Sans MS, cursive;
+    background-color: #fff3c4;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    background-color: #ff4d4d;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+/* BOX MODEL EXAMPLE */
+.character-box{
+    background-color: white;
+    width: 250px;
+
+    /* BOX MODEL */
+    padding: 15px;        /* space inside box */
+    border: 5px solid #ff9800; /* border */
+    margin: 15px;         /* space outside box */
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.character-box:hover{
+    transform: scale(1.05);
+}
+
+img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+h2{
+    color: #ff4d4d;
+}
+p{
+    font-size:14px;
+}
+.footer{
+    background-color: #ff4d4d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+    </style>
+
+
+</head>
+<body>
+        <h1 style="text-align:center;">ShinchanFacts.com</h1>
+<div class="topbar">
+  
+
+    <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="character.html">Characters</a>
+        <a href="#">Coming Soon</a>
+        <a href="#">Coming soon</a>
+    </div>
+</div>
+<h1> Shinchan Character</h1>
+<div class="container">
+    <div class="character-box">
+        <img src="shinchan.webp" alt="Shinchan">
+        <h2>Shinchan</h2>
+        <p>Shinchan is a mischievous 5-year-old boy who loves chocolates and causes funny trouble.</p>
+    </div>
+
+    <div class="character-box">
+        <img src="misae.webp" alt="Misae">
+        <h2>Misae</h2>
+        <p>Misae is Shinchan’s strict but caring mother who always scolds him.</p>
+    </div>
+
+    <div class="character-box">
+        <img src="hiroshi.webp" alt="Hiroshi">
+        <h2>Hiroshi</h2>
+        <p>Hiroshi is Shinchan’s father who works in an office and loves relaxing.</p>
+    </div>
+       <div class="character-box">
+        <img src="himawari.webp" alt="Hiroshi">
+        <h2>Himawari</h2>
+        <p>Himawari is Shinchan’s little sister who is naughty like Shinchan and loves relaxing.</p>
+    </div>
+    </div>
+<div class="footer">
+    &copy 2023-2026 Naitik Web Development , Glasstech
+
+</div>
+</body>
+</html>
